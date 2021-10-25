@@ -1,0 +1,359 @@
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Medium.woff') format('woff2'),
+		url('../fonts/Gilroy-Medium.woff2') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Gilroy';
+	src: url('../fonts/Gilroy-Regular.woff') format('woff2'),
+		url('../fonts/Gilroy-Regular.woff2') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1 {
+	font-family: Gilroy;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+.block {
+	width: auto;
+}
+.wrapper {
+	overflow: hidden;
+	padding: 50px;
+}
+/* .block {
+	background: url(../img/Image.png) center / cover no-repeat;
+	color: #fff;
+	padding: 100px 50px;
+}
+.block_title {
+	font-size: 50px;
+	margin: 0 0 15px 0;
+}
+.block_sub-title {
+	font-size: 35px;
+	margin: 0 0 30px 0;
+}
+.block_text {
+	margin: 0 0 20px 0;
+	padding: 0 20px;
+}
+.block_button {
+	color: #fff;
+	font-size: 12px;
+	text-transform: uppercase;
+	background: #c40b0b url(../img/Image.png) right no-repeat;
+	padding: 17px 50px 17px 20px;
+	display: inline-block;
+} */
+/* background */
+h1 {
+	margin: 0 0 30px 0;
+}
+.block {
+	font-size: 0;
+}
+.block_item {
+	display: inline-block;
+	width: 33.33%;
+	vertical-align: top;
+	padding: 0 30px 0 86px;
+}
+.block_title {
+	color: #f2726f;
+	font-size: 19px;
+	line-height: 1.5;
+	font-weight: 900;
+	margin: 0 0 10px 0;
+}
+.block_ttext {
+	color: #4b4b4b;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15;
+}
+.block_item_1 {
+	background: url(../img/dog_love_24x.svg) 0 0 no-repeat;
+}
+.block_item_2 {
+	background: url(../img/dog_vet_24x.svg) 0 0 no-repeat;
+}
+.block_item_3 {
+	background: url(../img/dog_stream_24x.svg) 0 0 no-repeat;
+}
+.container {
+	background-color: #c2bdbd;
+}
+.wrapper_container {
+	width: 1120px;
+	margin: 0 auto;
+}
+.container_block,
+.container_block_1 {
+	width: 1100px;
+	height: 362px;
+	display: block;
+	margin: 0 0 20px 0;
+	padding-left: 20px;
+}
+.container_title {
+	width: 596px;
+	height: 142px;
+	margin: 0 0 20px 0;
+}
+.container_subtitle {
+	background: url(../img/Overline\ Mark.svg) left no-repeat;
+	padding: 0 0 0 30px;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 2.5;
+	text-transform: uppercase;
+	color: #000;
+	font-weight: 700;
+	margin: 0 0 35px 0;
+}
+.container_subtitle_2 {
+	margin: 0 0 47px 0;
+	font-size: 36px;
+	line-height: 42px;
+	font-weight: 900;
+}
+.container_item_1 {
+	width: 331px;
+	height: 362px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10px;
+	background-color: #ffff;
+	padding: 53px 43px;
+	text-align: center;
+}
+.container_item_1:not(:last-child) {
+	margin-right: 10px;
+}
+.container_item_1:hover {
+	box-shadow: 3px 5px 10px #444141;
+}
+.container_item_1:active {
+	box-shadow: 3px 5px 10px #b47878;
+}
+.container_body {
+	width: 242px;
+	height: 256px;
+}
+.container_image {
+	width: 64px;
+	height: 67px;
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+.container_titlle_1 {
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	text-align: center;
+	color: #f2726f;
+	margin: 0 0 20px 0;
+}
+.container_text_1 {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+	text-align: center;
+}
+.container_button {
+	width: 126px;
+	height: 52px;
+	font-size: 16px;
+	color: #ffff;
+	background: #f2726f;
+	display: block;
+	padding: 20px 9px;
+	margin: 0 auto 100px auto;
+}
+.block_dog {
+	width: 1440px;
+	height: 608px;
+	background-image: url(../img/BG\ Image.jpg);
+	position: relative;
+}
+.wrapper_block_dog {
+	width: 1120px;
+	margin: 0 auto;
+}
+.block_dog_subtitle {
+	background: url(../img/Overline\ Mark.svg) left no-repeat;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	/* align-items: center; */
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 0px 0px 0px 32px;
+}
+.block_dog_subtitle_2 {
+	width: 411px;
+	font-weight: 900;
+	font-size: 32px;
+	line-height: 42px;
+	color: #ffffff;
+	margin: 0px 0px 0px 0px;
+	padding-top: 150px;
+}
+.block_dog_image {
+	position: absolute;
+	top: -86px;
+	right: 211px;
+}
+img {
+	border-radius: 40px;
+}
+.block_dog_line {
+	font-size: 0;
+}
+.block_dog_body {
+	display: inline-block;
+	vertical-align: top;
+	width: 150px;
+}
+.block_dog_img {
+	display: block;
+	width: 76px;
+	height: 76px;
+	vertical-align: top;
+}
+.block_dog_icon {
+	display: inline-block;
+	width: 237px;
+	vertical-align: top;
+	padding: 0 30px 0 0;
+}
+.block_dog_img::before {
+	content: '';
+	display: block;
+	width: 76px;
+	height: 76px;
+}
+.block_dog_icon_1 {
+	background: url(../img/icon_1.svg) 0 0 no-repeat;
+}
+.block_dog_icon_2 {
+	background: url(../img/icon_2.svg) 0 0 no-repeat;
+}
+.block_dog_icon_3 {
+	background: url(../img/icon_3.svg) 0 0 no-repeat;
+}
+.block_dog_icon_4 {
+	background: url(../img/icon_4.svg) 0 0 no-repeat;
+}
+.block_dog_text {
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffff;
+	font-weight: 900;
+}
+.block_dog_text_2 {
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	font-weight: 900;
+	color: #5d62b5;
+}
+/* Вариант c before
+.perspiciatis {
+	font-size: 0;
+}
+.perspiciatis_item {
+	display: inline-block;
+	width: 365px;
+	vertical-align: top;
+	padding: 0 30px 0 86px;
+}
+.perspiciatis_title {
+	color: #f2726f;
+	font-size: 19px;
+	line-height: 1.37;
+	font-weight: 900;
+	margin: 0 0 10px 0;
+}
+.perspiciatis_ttext {
+	color: #4b4b4b;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.15;
+}
+.perspiciatis_icon {
+	display: inline-block;
+	width: 86px;
+	height: 63px;
+	vertical-align: top;
+}
+.perspiciatis_body {
+	width: 235px;
+	display: inline-block;
+	vertical-align: top;
+}
+.perspiciatis_icon::before {
+	content: '';
+	width: 63px;
+	height: 63px;
+	display: block;
+}
+.perspiciatis_item_1 .perspiciatis_icon::before {
+	background: url(../img/dog_love_24x.svg) 0 0 no-repeat;
+}
+.perspiciatis_item_2 .perspiciatis_icon::before {
+	background: url(../img/dog_vet_24x.svg) 0 0 no-repeat;
+}
+.perspiciatis_item_3 .perspiciatis_icon::before {
+	background: url(../img/dog_stream_24x.svg) 0 0 no-repeat;
+} */
